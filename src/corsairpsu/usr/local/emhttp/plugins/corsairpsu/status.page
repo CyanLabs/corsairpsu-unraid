@@ -9,7 +9,6 @@ Icon="ups"
         echo '.corsair-temp-rm { display:none; }';
     } else {    
         echo '.corsair-uptime-rm td { padding-bottom: 20px !important;}';
-        echo '.corsair-efficiency-ax { display:none; }';
         echo '.corsair-temp-ax { display:none; }';
     }
 ?>
@@ -79,8 +78,9 @@ Icon="ups"
         </tr>
         <tr class="corsair-efficiency-ax">
             <td></td>
-            <td>Efficiency</td>
-            <td colspan="2"><span class="corsair-efficiency"></span>%</td>
+            <td>Efficiency / Supply</td>
+            <td><span class="corsair-efficiency"></span>% (<span class="corsair-input_power"></span>W)</span></td>
+            <td><span class="corsair-input_voltage"></span>V</td>
             <td></td>
         </tr>
     </tbody>
